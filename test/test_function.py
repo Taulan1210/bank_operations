@@ -19,7 +19,6 @@ t_list_date = [
         {'date': '2018-12-20T16:43:26.929246'}
 ]
 
-
 def test_sort_dates():
     assert sort_dates(list_=t_list_date) == [{'date': '2018-12-20T16:43:26.929246'},
                                              {'date': 'date": "2019-08-26T10:50:58.294041'}
