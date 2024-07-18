@@ -9,7 +9,6 @@ from function import (
 )
 from config import data_file_name
 
-
 def main():
     list_data = get_data_json(data_file_name)
     list_sorted_status = sort_status(list_data, state="EXECUTED")
