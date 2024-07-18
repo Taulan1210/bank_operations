@@ -1,4 +1,4 @@
-from function import get_operations,
+from function import get_operations
 
 def main():
     operations = get_operations('operations.json')
